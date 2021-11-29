@@ -1,0 +1,60 @@
+:root {
+  /*   color variables */
+  --clr-primary: #6aeeb5;
+  --clr-primary-hover: #29e6a7;
+  --clr-primary-dark: #039d69;
+  --clr-gray100: #f0f7f8;
+  --clr-gray200: #cfd8dc;
+
+  /*   border radius */
+  --radius: 0.2rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--clr-gray100);
+}
+
+.nav-list {
+  background: white;
+  box-shadow: 0px 0px 10px var(--clr-gray200);
+  margin: 0;
+  padding: 1rem 0%;
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.nav-item:hover {
+  color: var(--clr-primary-dark);
+}
+
+.projects {
+  background: var(--clr-primary);
+  outline: none;
+  border-radius: var(--radius);
+  padding: 0.2rem 0.75rem;
+  transition: all 0.2s ease-in;
+}
+
+.projects:hover {
+  background: var(--clr-primary-hover);
+}

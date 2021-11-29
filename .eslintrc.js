@@ -1,5 +1,4 @@
 module.exports = {
-  parser: 'babel-eslint',
   env: {
     browser: true,
     es2021: true,
@@ -19,15 +18,18 @@ module.exports = {
       {
         endOfLine: 'auto',
         singleQuote: true,
+        arrowParens: 'always',
       },
     ],
     'no-console': 'off',
+    'react/prop-types': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/function-component-definition': [
       2,
       {
-        namedComponents: 'function-declaration',
+        arrowParens: 'always',
       },
     ],
   },
+  parser: 'babel-eslint',
 };
