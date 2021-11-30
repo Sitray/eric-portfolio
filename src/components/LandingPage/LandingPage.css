@@ -13,3 +13,12 @@
 .lp-text {
   text-align: center;
 }
+
+.lp-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.lp-icons {
+  margin-top: 10px;
+}
