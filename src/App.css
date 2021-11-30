@@ -1,4 +1,15 @@
 .web-container {
-  max-width: 500px;
+  max-width: 800px;
   margin: auto;
+}
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
 }
