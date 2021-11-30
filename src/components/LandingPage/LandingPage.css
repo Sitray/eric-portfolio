@@ -1,0 +1,15 @@
+.lp-container {
+  margin: 0 auto;
+  padding: 40px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border: 2px solid tomato;
+}
+
+.lp-text {
+  text-align: center;
+}
