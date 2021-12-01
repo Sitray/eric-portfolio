@@ -26,7 +26,7 @@ function HomePage({ id }) {
           <FaLinkedin color="black" size="30px" />
         </a>
       </div>
-      <div className="lp-arrow-icon">
+      <div className="lp-arrow-icon bounce">
         <Link to="about">
           <FaArrowDown color="black" />
         </Link>
