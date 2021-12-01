@@ -4,9 +4,9 @@ import { Link } from 'react-scroll';
 
 import './Navbar.css';
 
-function Navbar({ home, about, projects, contact }) {
+function Navbar({ home, about, projects, skills }) {
   return (
-    <nav>
+    <nav className="nav-container">
       <ul className="nav-list">
         <li className="nav-item">
           <Link
@@ -39,9 +39,9 @@ function Navbar({ home, about, projects, contact }) {
             smooth="true"
             offset={-70}
             duration={300}
-            to={contact}
+            to={skills}
           >
-            {contact}
+            {skills}
           </Link>
         </li>
         <li className="nav-item">

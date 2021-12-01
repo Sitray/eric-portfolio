@@ -1,11 +1,12 @@
 .lp-container {
   margin: 50px auto;
-  margin-bottom: 10rem;
-  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
 
   border: 2px solid tomato;
 }
@@ -30,6 +31,6 @@
 
 .lp-arrow-icon {
   position: absolute;
-  top: 41rem;
   cursor: pointer;
+  bottom: 1rem;
 }

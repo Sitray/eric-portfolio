@@ -1,15 +1,14 @@
 import React from 'react';
 
-import { GoMarkGithub, GoChevronDown } from 'react-icons/go';
-import { ImLinkedin } from 'react-icons/im';
+import { FaGithubSquare, FaArrowDown, FaLinkedin } from 'react-icons/fa';
 
 import { Link } from 'react-scroll';
 
 import './HomePage.css';
 
-function HomePage() {
+function HomePage({ id }) {
   return (
-    <div className="lp-container">
+    <div className="lp-container" id={id}>
       <div className="lp-text">
         <img src="test.svg" alt="logo" className="lp-logo" />
         <h1>Eric Marès Aguilera</h1>
@@ -17,19 +16,19 @@ function HomePage() {
       </div>
       <div className="lp-icons">
         <a href="https://github.com/Sitray" target="_blank" rel="noreferrer">
-          <GoMarkGithub color="black" size="25px" />
+          <FaGithubSquare color="black" size="30px" />
         </a>
         <a
           href="https://www.linkedin.com/in/eric-mares-aguilera/"
           target="_blank"
           rel="noreferrer"
         >
-          <ImLinkedin color="black" size="25px" />
+          <FaLinkedin color="black" size="30px" />
         </a>
       </div>
       <div className="lp-arrow-icon">
         <Link to="about">
-          <GoChevronDown color="black" size="20px" />
+          <FaArrowDown color="black" />
         </Link>
       </div>
     </div>
