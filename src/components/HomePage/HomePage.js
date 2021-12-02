@@ -27,7 +27,7 @@ function HomePage({ id }) {
         </a>
       </div>
       <div className="lp-arrow-icon bounce">
-        <Link to="about">
+        <Link to="about" spy="true" smooth="true" duration={400}>
           <FaArrowDown color="black" />
         </Link>
       </div>
