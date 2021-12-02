@@ -51,6 +51,11 @@ body {
   margin-left: 2rem;
 }
 
+.navbar-active {
+  text-decoration: underline;
+  text-decoration-color: #29e6a7;
+}
+
 .nav-item:hover {
   color: var(--clr-primary-dark);
 }

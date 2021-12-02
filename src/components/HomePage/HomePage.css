@@ -37,6 +37,12 @@
   animation: bounce 1s infinite;
   animation-timing-function: ease;
 }
+
+.navbar-active {
+  text-decoration: underline;
+  text-decoration-color: #29e6a7;
+}
+
 @keyframes bounce {
   20% {
     transform: translateY(0);

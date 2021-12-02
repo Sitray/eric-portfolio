@@ -11,7 +11,7 @@ function Navbar({ home, about, projects, skills }) {
         <li className="nav-item">
           <Link
             activeClass="active"
-            spy="true"
+            spy
             smooth="true"
             offset={-70}
             duration={300}
@@ -22,8 +22,8 @@ function Navbar({ home, about, projects, skills }) {
         </li>
         <li className="nav-item">
           <Link
-            activeClass="active"
-            spy="true"
+            activeClass="navbar-active"
+            spy
             smooth="true"
             offset={-70}
             duration={300}
@@ -34,8 +34,8 @@ function Navbar({ home, about, projects, skills }) {
         </li>
         <li className="nav-item">
           <Link
-            activeClass="active"
-            spy="true"
+            activeClass="navbar-active"
+            spy
             smooth="true"
             offset={-70}
             duration={300}
@@ -46,13 +46,12 @@ function Navbar({ home, about, projects, skills }) {
         </li>
         <li className="nav-item">
           <Link
-            activeClass="active"
-            spy="true"
+            activeClass="navbar-active"
+            spy
             smooth="true"
             offset={-70}
             duration={300}
             to={projects}
-            className="projects"
           >
             {projects}
           </Link>
