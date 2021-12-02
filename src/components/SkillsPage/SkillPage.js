@@ -5,7 +5,7 @@ import './SkillPage.css';
 function SkillPage({ id }) {
   return (
     <div className="sp-container" id={id}>
-      <hi>SkillPage</hi>
+      <h1>SkillPage</h1>
     </div>
   );
 }

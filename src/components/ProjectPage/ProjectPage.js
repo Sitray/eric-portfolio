@@ -5,7 +5,7 @@ import './ProjectPage.css';
 function ProjectPage({ id }) {
   return (
     <div className="pr-container" id={id}>
-      <hi>Project page</hi>
+      <h1>Project page</h1>
     </div>
   );
 }

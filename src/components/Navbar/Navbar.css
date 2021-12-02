@@ -59,15 +59,3 @@ body {
 .nav-item:hover {
   color: var(--clr-primary-dark);
 }
-
-.projects {
-  background: var(--clr-primary);
-  outline: none;
-  border-radius: var(--radius);
-  padding: 0.2rem 0.75rem;
-  transition: all 0.2s ease-in;
-}
-
-.projects:hover {
-  background: var(--clr-primary-hover);
-}
