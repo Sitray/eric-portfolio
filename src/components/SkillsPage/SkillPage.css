@@ -1,5 +1,47 @@
 .sp-container {
   height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
   border: 2px solid tomato;
+}
+
+.sp-title {
+  font-size: 15px;
+  margin: 0%;
+  display: flex;
+  justify-content: flex-start;
+  width: 85%;
+}
+
+.sp-container-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sp-display-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+
+.sp-skill-list {
+  border-radius: 9px;
+  height: 80px;
+  width: 80px;
+  list-style: none;
+  padding: 1rem;
+}
+
+.sp-skill-list--javascript {
+  background-color: #cac38f;
+  border: 1px solid rgba(49, 120, 198, 0.32);
 }
