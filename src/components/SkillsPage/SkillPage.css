@@ -39,9 +39,17 @@
   width: 80px;
   list-style: none;
   padding: 1rem;
+  background-color: rgb(248, 237, 235);
 }
 
-.sp-skill-list--javascript {
-  background-color: #cac38f;
-  border: 1px solid rgba(49, 120, 198, 0.32);
+.sp-boxshadow {
+  box-shadow: 106px 67px 5000px 101px #ff9359;
+}
+
+.sp-skill-name {
+  font-weight: bold;
+  margin: -10px;
+  text-align: center;
+  position: relative;
+  top: 18px;
 }
