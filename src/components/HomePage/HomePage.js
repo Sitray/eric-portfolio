@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { FaGithubSquare, FaArrowDown, FaLinkedin } from 'react-icons/fa';
-
+import { FaArrowDown } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+
+import Logos from '../Logos/Logos';
 
 import './HomePage.css';
 
@@ -16,14 +17,22 @@ function HomePage({ id }) {
       </div>
       <div className="lp-icons">
         <a href="https://github.com/Sitray" target="_blank" rel="noreferrer">
-          <FaGithubSquare color="black" size="30px" />
+          <Logos
+            iconName="devicon-github-original colored"
+            fontSizeIcon="30px"
+            colorIcon="black"
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/eric-mares-aguilera/"
           target="_blank"
           rel="noreferrer"
         >
-          <FaLinkedin color="black" size="30px" />
+          <Logos
+            iconName="devicon-linkedin-plain"
+            fontSizeIcon="30px"
+            colorIcon="black"
+          />
         </a>
       </div>
       <div className="lp-arrow-icon bounce">

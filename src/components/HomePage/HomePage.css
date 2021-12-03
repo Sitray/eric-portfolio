@@ -43,6 +43,10 @@
   text-decoration-color: #29e6a7;
 }
 
+a {
+  text-decoration: none;
+}
+
 @keyframes bounce {
   20% {
     transform: translateY(0);
