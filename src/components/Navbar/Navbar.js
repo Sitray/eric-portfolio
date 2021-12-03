@@ -4,7 +4,10 @@ import { Link } from 'react-scroll';
 
 import './Navbar.css';
 
-function Navbar({ home, about, projects, skills }) {
+// the first argument is the first position of the array
+function Navbar({ navItems }) {
+  const [home, about, skills, projects] = navItems;
+
   return (
     <nav className="nav-container">
       <ul className="nav-list">
