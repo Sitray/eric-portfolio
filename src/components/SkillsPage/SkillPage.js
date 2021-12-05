@@ -2,6 +2,8 @@ import React from 'react';
 
 import './SkillPage.css';
 
+// TODO: Add more box shadow
+
 function SkillPage({ id }) {
   return (
     <div className="sp-container" id={id}>
