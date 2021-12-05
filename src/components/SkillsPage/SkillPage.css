@@ -5,16 +5,22 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
-  border: 2px solid tomato;
 }
 
 .sp-title {
-  font-size: 15px;
-  margin: 0%;
+  font-size: 20px;
+  margin: 0;
   display: flex;
   justify-content: flex-start;
   width: 85%;
+}
+
+@media screen and (max-width: 920px) {
+  .sp-title {
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
 }
 
 .sp-container-list {
