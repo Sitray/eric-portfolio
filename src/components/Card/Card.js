@@ -1,8 +1,9 @@
 import React from 'react';
+import Button from '../Button/Button';
 
 import './Card.css';
 
-function Card() {
+function Card({ title = 'test title' }) {
   return (
     <div className="card-container">
       <div className="card-image">
@@ -13,7 +14,7 @@ function Card() {
         />
       </div>
       <div className="card-text-container">
-        <h1 className="card-title"> Project 1 </h1>
+        <h1 className="card-title"> {title} </h1>
         <p className="card-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
           dignissim eleifend leo. Donec efficitur et quam ac varius. Quisque
@@ -21,8 +22,8 @@ function Card() {
           nulla.
         </p>
         <div className="card-button">
-          <button type="button">Source Code</button>
-          <button type="button">View Project</button>
+          <Button text="Source Code" />
+          <Button text="Live Demo" />
         </div>
       </div>
     </div>
