@@ -6,13 +6,13 @@ import './Card.css';
 function Card({ title = 'test title' }) {
   return (
     <div className="card-container">
-      <div className="card-image">
+      <figure className="card-image">
         <img
           alt="iamge"
           src="https://picsum.photos/300/354"
           className="card-image"
         />
-      </div>
+      </figure>
       <div className="card-text-container">
         <h1 className="card-title"> {title} </h1>
         <p className="card-text">
@@ -22,7 +22,7 @@ function Card({ title = 'test title' }) {
           nulla.
         </p>
         <div className="card-button">
-          <Button text="Source Code" />
+          <Button text="Source Code" styles="btn" />
           <Button text="Live Demo" />
         </div>
       </div>

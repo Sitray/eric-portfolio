@@ -1,18 +1,17 @@
 .card-container {
-  height: 50vh;
-  width: 65%;
+  height: 40vh;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  margin: 30px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+  margin: 25px;
   border-radius: 10px;
 }
 
 .card-image {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   border-radius: 10px;
   margin: 0 auto;
   margin-right: 2.5rem;
@@ -26,5 +25,36 @@
 }
 
 .card-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
   margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 920px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 90%;
+  }
+
+  .card-text-container {
+    height: 100%;
+  }
+
+  .card-image {
+    height: auto;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 929px) {
+  .card-image {
+    justify-content: center;
+    align-items: center;
+  }
 }
